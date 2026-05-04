@@ -15,7 +15,7 @@ project(MshIO)
 option(MSHIO_BUILD_TESTS "Build unit tests" OFF)
 option(MSHIO_BUILD_EXAMPLES "Build examples" OFF)
 option(MSHIO_EXT_NANOSPLINE "Enable nanospline extension" OFF)
-option(MSHIO_PYTHON "Build python binding" OFF)
+option(MSHIO_PYTHON "Build python binding" ON)
 
 SET(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}/cmake/")
 
